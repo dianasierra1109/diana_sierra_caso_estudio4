@@ -1,59 +1,59 @@
 Identificación de Entidades y Atributos
 1.	Proyecto
-	o	ID_Proyecto (PK)
-	o	Nombre
-	o	Descripción
-	o	Cliente_ID (FK)
-	o	Fecha_Inicio
-	o	Fecha_Fin
-	o	Presupuesto
-	o	Estado
+	- ID_Proyecto (PK)
+	- Nombre
+	- Descripción
+	- Cliente_ID (FK)
+	- Fecha_Inicio
+	- Fecha_Fin
+	- Presupuesto
+	- Estado
 
 2.	Tarea
-	o	ID_Tarea (PK)
-	o	Nombre
-	o	Descripción
-	o	Proyecto_ID (FK)
-	o	Responsable_ID (FK)
-	o	Fecha_Inicio
-	o	Fecha_Fin
-	o	Estado
-	o	Prioridad
+	- ID_Tarea (PK)
+	- Nombre
+	- Descripción
+	- Proyecto_ID (FK)
+	- Responsable_ID (FK)
+	- Fecha_Inicio
+	- Fecha_Fin
+	- Estado
+	- Prioridad
 
 3.	Recurso (Personal)
-	o	ID_Recurso (PK)
-	o	Nombre
-	o	Apellidos
-	o	Rol
-	o	Disponibilidad
-	o	Habilidades
+	- ID_Recurso (PK)
+	- Nombre
+	- Apellidos
+	- Rol
+	- Disponibilidad
+	- Habilidades
 
 4.	Cliente
-	o	ID_Cliente (PK)
-	o	Nombre
-	o	Razon_Social
-	o	Contacto
-	o	Telefono
-	o	Correo_Electronico
+	- ID_Cliente (PK)
+	- Nombre
+	- Razon_Social
+	- Contacto
+	- Telefono
+	- Correo_Electronico
 
 5.	Documento
-	o	ID_Documento (PK)
-	o	Nombre
-	o	Proyecto_ID (FK)
-	o	URL
-	o	Fecha_Subida
+	- ID_Documento (PK)
+	- Nombre
+	- Proyecto_ID (FK)
+	- URL
+	- Fecha_Subida
 
 6.	Registro_Tiempo
-	o	ID_Registro (PK)
-	o	Tarea_ID (FK)
-	o	Recurso_ID (FK)
-	o	Horas
-	o	Fecha
+	- ID_Registro (PK)
+	- Tarea_ID (FK)
+	- Recurso_ID (FK)
+	- Horas
+	- Fecha
 
 7.	Mensaje (Chat)
-	o	ID_Mensaje (PK)
-	o	Remitente_ID (FK)
-	o	Destinatario_ID (FK)
-	o	Proyecto_ID (FK)
-	o	Contenido
-	o	Fecha_Hora
+	- ID_Mensaje (PK)
+	- Remitente_ID (FK)
+	- Destinatario_ID (FK)
+	- Proyecto_ID (FK)
+	- Contenido
+	- Fecha_Hora
