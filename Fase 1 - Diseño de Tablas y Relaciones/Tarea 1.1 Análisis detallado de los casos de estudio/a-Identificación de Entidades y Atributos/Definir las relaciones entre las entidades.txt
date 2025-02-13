@@ -1,0 +1,15 @@
+Definición de Relaciones
+
+Un proyecto puede tener muchas tareas (1:N).
+
+Una tarea tiene un solo responsable (N:1).
+
+Un proyecto pertenece a un solo cliente (N:1).
+
+Un recurso puede estar asignado a muchas tareas (N:M).
+
+Un proyecto puede tener muchos documentos (1:N).
+
+Un recurso puede registrar varias horas trabajadas en distintas tareas (N:M).
+
+Un proyecto puede tener muchos mensajes en el chat (1:N).
